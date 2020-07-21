@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>   
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="HybridEncryption.cs~RF1517ce9.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="CryslConfiguration.json" />
+  </ItemGroup>
+
+</Project>
