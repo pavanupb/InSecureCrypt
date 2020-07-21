@@ -25,6 +25,7 @@ namespace SecureEncryption
             //Bug 4: SymmetricAlgorithm object is not disposed
             //Bug 5: Weak encryption mode is used
             //Bug 6: Weak padding mode is used
+            //Bug 7: Tainted key and iv values are used for encryption.
             SymmetricAlgorithm aesAlg = SymmetricAlgorithm.Create("AES");
 
             aesAlg.BlockSize = 128;
